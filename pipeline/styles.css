@@ -1,0 +1,54 @@
+/* Style for body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  /* Style for file input */
+  #inputImage {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for compress button */
+  button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Style for output image */
+  #outputImage {
+    max-width: 100%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Style for download link */
+  #downloadLink {
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #27ae60;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  #downloadLink:hover {
+    background-color: #219a52;
+  }
+  

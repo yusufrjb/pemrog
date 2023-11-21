@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+
+  <title>Image Compressor</title>
+</head>
+<body>
+  <input type="file" id="inputImage" accept="image/*">
+  <button onclick="compressImage()">Compress Image</button>
+  <img id="outputImage" style="display: none;">
+  <a id="downloadLink" style="display: none;" download="compressed_image.jpg">Download Compressed Image</a>
+
+  <script src="compressor.js"></script>
+</body>
+</html>
